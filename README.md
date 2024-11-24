@@ -1,30 +1,84 @@
-This is a web scrapping software targeted at the Jumia website. It provides a full catalogue of products that have been searched for.
+# Price Monitor App v1.2.0
 
-## End Goal
-Addition of other web stores for price comparison on a searched product
+**Price Monitor App v1.2.0** is an intuitive tool that simplifies product price tracking. Instead of requiring technical inputs, users can now search by product name to fetch real-time price details. Built for convenience, this version removes complex configurations and enhances user accessibility.  
 
-## Getting Started
+Future updates will include user authentication powered by **[Clerk](https://clerk.com)** for personalized tracking and secure data management.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
+## 🚀 Features
+
+- **Simple Search Interface**: Search for products by name and retrieve:
+  - Product name
+  - Current price
+  - Availability status
+- **Real-Time Scraping**: Up-to-date product details with a single query.
+- **User-Friendly Design**: Streamlined for non-technical users.
+- **Email Alerts**: Receive email notifications for price changes (optional).  
+
+---
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- **Node.js** (v16+ recommended)  
+- **Yarn** or **npm**
+
+### Installation
+
+1. **Clone the Repository**:  
+   ```bash
+   git clone https://github.com/Jclinch/price-monitor-v.-1.2.0.git
+   cd price-monitor-v.-1.2.0
+
+### Install Dependencies:
+yarn install
 # or
+npm install
+
+### Run the Development Server:
+
 yarn dev
 # or
-pnpm dev
-# or
-bun dev
-```
+npm run dev
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Access the App:
+Open your browser and navigate to http://localhost:3000.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🎯 Usage
+# Search for Products:
+Enter the product name in the search bar and hit the "Search" button.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Results include product details like name, price, and availability.
+Email Notifications (Optional):
 
-## Deploy on Vercel
+Subscribe to updates for price changes via email.
+# Future Enhancements:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+User authentication for personalized tracking (coming soon).
+## 🔧 Technology Stack
+Frontend: Next.js, TypeScript
+Backend: Supabase
+Styling: Tailwind CSS
+Email Notifications: Nodemailer
+Future Authentication: Clerk
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Roadmap
+# Planned Features:
+- User Authentication: Powered by Clerk for secure access and personalized product tracking.
+- Price History: Visualize product price trends over time.
+- Multiple Platform Support: Monitor products from multiple e-commerce platforms.
+- Mobile App: A mobile-friendly version for tracking on the go.
+
+# 🤝 Contributing
+Contributions are welcome! If you'd like to improve the app, submit a pull request or open an issue on the GitHub repository.
+
+# 📧 Support
+For inquiries or support, feel free to reach out via email: sunnyugwu2011@gmail.com
+
+
+### Key Changes for Version 2:
+- Simplified for user accessibility (search by product name).
+- Removed technical fields like CSS selectors for easier use.
+- Highlighted upcoming features like user authentication with Clerk.  
